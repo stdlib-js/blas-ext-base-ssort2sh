@@ -1,0 +1,42 @@
+{
+  "name": "@stdlib/blas-ext-base-ssort2sh",
+  "version": "0.0.0",
+  "description": "Simultaneously sort two single-precision floating-point strided arrays based on the sort order of the first array using Shellsort.",
+  "license": "Apache-2.0",
+  "type": "module",
+  "main": "./mod.js",
+  "homepage": "https://stdlib.io",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/stdlib-js/blas-ext-base-ssort2sh.git"
+  },
+  "bugs": {
+    "url": "https://github.com/stdlib-js/stdlib/issues"
+  },
+  "keywords": [
+    "stdlib",
+    "stdmath",
+    "mathematics",
+    "math",
+    "blas",
+    "extended",
+    "sort",
+    "order",
+    "arrange",
+    "permute",
+    "insertion",
+    "shell",
+    "shellsort",
+    "strided",
+    "array",
+    "ndarray",
+    "float32",
+    "float",
+    "single",
+    "float32array"
+  ],
+  "funding": {
+    "type": "patreon",
+    "url": "https://www.patreon.com/athan"
+  }
+}
