@@ -248,9 +248,9 @@ console.log( y );
 
 ## See Also
 
--   <span class="package-name">[`@stdlib/blas/ext/base/dsort2sh`][@stdlib/blas/ext/base/dsort2sh]</span><span class="delimiter">: </span><span class="description">simultaneously sort two double-precision floating-point strided arrays based on the sort order of the first array using Shellsort.</span>
--   <span class="package-name">[`@stdlib/blas/ext/base/gsort2sh`][@stdlib/blas/ext/base/gsort2sh]</span><span class="delimiter">: </span><span class="description">simultaneously sort two strided arrays based on the sort order of the first array using Shellsort.</span>
--   <span class="package-name">[`@stdlib/blas/ext/base/ssortsh`][@stdlib/blas/ext/base/ssortsh]</span><span class="delimiter">: </span><span class="description">sort a single-precision floating-point strided array using Shellsort.</span>
+-   <span class="package-name">[`@stdlib/blas-ext/base/dsort2sh`][@stdlib/blas/ext/base/dsort2sh]</span><span class="delimiter">: </span><span class="description">simultaneously sort two double-precision floating-point strided arrays based on the sort order of the first array using Shellsort.</span>
+-   <span class="package-name">[`@stdlib/blas-ext/base/gsort2sh`][@stdlib/blas/ext/base/gsort2sh]</span><span class="delimiter">: </span><span class="description">simultaneously sort two strided arrays based on the sort order of the first array using Shellsort.</span>
+-   <span class="package-name">[`@stdlib/blas-ext/base/ssortsh`][@stdlib/blas/ext/base/ssortsh]</span><span class="delimiter">: </span><span class="description">sort a single-precision floating-point strided array using Shellsort.</span>
 
 </section>
 
