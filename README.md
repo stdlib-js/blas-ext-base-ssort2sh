@@ -35,30 +35,14 @@ limitations under the License.
 
 > Simultaneously sort two single-precision floating-point strided arrays based on the sort order of the first array using Shellsort.
 
-<section class="installation">
 
-## Installation
-
-```bash
-npm install @stdlib/blas-ext-base-ssort2sh
-```
-
-Alternatively,
-
--   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
--   If you are using Deno, visit the [`deno` branch][deno-url].
--   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
-
-The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
-
-</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-var ssort2sh = require( '@stdlib/blas-ext-base-ssort2sh' );
+import ssort2sh from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-ssort2sh@deno/mod.js';
 ```
 
 #### ssort2sh( N, order, x, strideX, y, strideY )
@@ -66,7 +50,7 @@ var ssort2sh = require( '@stdlib/blas-ext-base-ssort2sh' );
 Simultaneously sorts two single-precision floating-point strided arrays based on the sort order of the first array `x` using Shellsort.
 
 ```javascript
-var Float32Array = require( '@stdlib/array-float32' );
+import Float32Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-float32@deno/mod.js';
 
 var x = new Float32Array( [ 1.0, -2.0, 3.0, -4.0 ] );
 var y = new Float32Array( [ 0.0, 1.0, 2.0, 3.0 ] );
@@ -92,8 +76,8 @@ The function has the following parameters:
 The `N` and `stride` parameters determine which elements in `x` and `y` are accessed at runtime. For example, to sort every other element
 
 ```javascript
-var Float32Array = require( '@stdlib/array-float32' );
-var floor = require( '@stdlib/math-base-special-floor' );
+import Float32Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-float32@deno/mod.js';
+import floor from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-floor@deno/mod.js';
 
 var x = new Float32Array( [ 1.0, -2.0, 3.0, -4.0 ] );
 var y = new Float32Array( [ 0.0, 1.0, 2.0, 3.0 ] );
@@ -111,8 +95,8 @@ console.log( y );
 Note that indexing is relative to the first index. To introduce an offset, use [`typed array`][mdn-typed-array] views.
 
 ```javascript
-var Float32Array = require( '@stdlib/array-float32' );
-var floor = require( '@stdlib/math-base-special-floor' );
+import Float32Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-float32@deno/mod.js';
+import floor from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-floor@deno/mod.js';
 
 // Initial arrays...
 var x0 = new Float32Array( [ 1.0, 2.0, 3.0, 4.0 ] );
@@ -138,7 +122,7 @@ console.log( y0 );
 Simultaneously sorts two single-precision floating-point strided arrays based on the sort order of the first array `x` using Shellsort and alternative indexing semantics.
 
 ```javascript
-var Float32Array = require( '@stdlib/array-float32' );
+import Float32Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-float32@deno/mod.js';
 
 var x = new Float32Array( [ 1.0, -2.0, 3.0, -4.0 ] );
 var y = new Float32Array( [ 0.0, 1.0, 2.0, 3.0 ] );
@@ -160,7 +144,7 @@ The function has the following additional parameters:
 While [`typed array`][mdn-typed-array] views mandate a view offset based on the underlying `buffer`, the `offset` parameter supports indexing semantics based on a starting index. For example, to access only the last three elements of `x`
 
 ```javascript
-var Float32Array = require( '@stdlib/array-float32' );
+import Float32Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-float32@deno/mod.js';
 
 var x = new Float32Array( [ 1.0, -2.0, 3.0, -4.0, 5.0, -6.0 ] );
 var y = new Float32Array( [ 0.0, 1.0, 2.0, 3.0, 4.0, 5.0 ] );
@@ -201,10 +185,10 @@ console.log( y );
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-var round = require( '@stdlib/math-base-special-round' );
-var randu = require( '@stdlib/random-base-randu' );
-var Float32Array = require( '@stdlib/array-float32' );
-var ssort2sh = require( '@stdlib/blas-ext-base-ssort2sh' );
+import round from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-round@deno/mod.js';
+import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@deno/mod.js';
+import Float32Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-float32@deno/mod.js';
+import ssort2sh from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-ssort2sh@deno/mod.js';
 
 var rand;
 var sign;
@@ -276,7 +260,7 @@ console.log( y );
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
@@ -336,7 +320,7 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/blas-ext-base-ssort2sh/main/LICENSE
 
-[@stdlib/array/float32]: https://github.com/stdlib-js/array-float32
+[@stdlib/array/float32]: https://github.com/stdlib-js/array-float32/tree/deno
 
 [mdn-typed-array]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypedArray
 
@@ -348,11 +332,11 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 
 <!-- <related-links> -->
 
-[@stdlib/blas/ext/base/dsort2sh]: https://github.com/stdlib-js/blas-ext-base-dsort2sh
+[@stdlib/blas/ext/base/dsort2sh]: https://github.com/stdlib-js/blas-ext-base-dsort2sh/tree/deno
 
-[@stdlib/blas/ext/base/gsort2sh]: https://github.com/stdlib-js/blas-ext-base-gsort2sh
+[@stdlib/blas/ext/base/gsort2sh]: https://github.com/stdlib-js/blas-ext-base-gsort2sh/tree/deno
 
-[@stdlib/blas/ext/base/ssortsh]: https://github.com/stdlib-js/blas-ext-base-ssortsh
+[@stdlib/blas/ext/base/ssortsh]: https://github.com/stdlib-js/blas-ext-base-ssortsh/tree/deno
 
 <!-- </related-links> -->
 
