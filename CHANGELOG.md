@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-03-16)
+## Unreleased (2026-03-29)
 
 <section class="commits">
 
@@ -12,6 +12,7 @@
 
 <details>
 
+-   [`f9d1409`](https://github.com/stdlib-js/stdlib/commit/f9d140985e169d34f4e66bd770dc675ea28588a3) - **docs:** add missing JSDoc comment _(by Athan Reines)_
 -   [`352e91a`](https://github.com/stdlib-js/stdlib/commit/352e91a533513a09a2004d9891e55516c4921b7d) - **bench:** refactor to use string interpolation in `blas/ext/base/ssort2sh` [(#10911)](https://github.com/stdlib-js/stdlib/pull/10911) _(by Partha Das)_
 
 </details>
@@ -24,8 +25,9 @@
 
 ### Contributors
 
-A total of 1 person contributed to this release. Thank you to this contributor:
+A total of 2 people contributed to this release. Thank you to the following contributors:
 
+-   Athan Reines
 -   Partha Das
 
 </section>
