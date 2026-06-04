@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-05-22)
+## Unreleased (2026-06-04)
 
 <section class="commits">
 
@@ -12,6 +12,7 @@
 
 <details>
 
+-   [`ec68ca7`](https://github.com/stdlib-js/stdlib/commit/ec68ca7cc35210db29a028d561ec71968e2ff753) - **docs:** fix TSDoc errors in `blas` declarations [(#12529)](https://github.com/stdlib-js/stdlib/pull/12529) _(by Philipp Burckhardt, Athan Reines)_
 -   [`8441545`](https://github.com/stdlib-js/stdlib/commit/8441545518bc1d000fcd81a6ab91548f56eafaa6) - **docs:** fix offset parameter wording in `blas/ext/base/*sort2*` READMEs [(#12229)](https://github.com/stdlib-js/stdlib/pull/12229) _(by Philipp Burckhardt)_
 -   [`f9d1409`](https://github.com/stdlib-js/stdlib/commit/f9d140985e169d34f4e66bd770dc675ea28588a3) - **docs:** add missing JSDoc comment _(by Athan Reines)_
 -   [`352e91a`](https://github.com/stdlib-js/stdlib/commit/352e91a533513a09a2004d9891e55516c4921b7d) - **bench:** refactor to use string interpolation in `blas/ext/base/ssort2sh` [(#10911)](https://github.com/stdlib-js/stdlib/pull/10911) _(by Partha Das)_
